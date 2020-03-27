@@ -5,14 +5,22 @@
 [PostCSS]: https://github.com/postcss/postcss
 
 ```css
+/* postcss-scale-px box-shadow,border */
 .foo {
-    /* Input example */
+  /* Input example */
+
+  display: flex;
+  font-size: 13px;
+  border: 1px solid #fff;
 }
 ```
 
 ```css
 .foo {
   /* Output example */
+  display: flex;
+  font-size: 26px;
+  border: 1px solid #fff;
 }
 ```
 
